@@ -5,12 +5,12 @@ API
 
 #### checkForUpdate()
 
-- returns {Promise}
+- returns {Promise} 
+- retVal1:url 
+- retVal2:releaseNote 
 
 
 #### gotoAppStore()
-
-- return {Promise}
 
 ## License
 
