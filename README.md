@@ -1,5 +1,5 @@
 # react-native-upgrade
-react native ios原生插件更新
+react native ios app store update 
 
 API
 
