@@ -18,7 +18,7 @@ RCT_EXPORT_MODULE()
 
 RCT_EXPORT_METHOD(checkForUpdate:(RCTPromiseResolveBlock)resolve
                   rejecter:(RCTPromiseRejectBlock)reject) {
-    NSString *urlString = [NSString stringWithFormat:@"https://itunes.apple.com/cn/lookup?id=998255344"];//1092837141
+    NSString *urlString = [NSString stringWithFormat:@"https://itunes.apple.com/cn/lookup?id=xxxxxx"];
     NSURL *url = [NSURL URLWithString:urlString];
     NSError *error = nil;
     NSData *jsonData = [NSData dataWithContentsOfURL:url];
